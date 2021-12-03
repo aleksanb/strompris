@@ -9,6 +9,7 @@
         html {
             box-sizing: border-box;
             font-size: 16px;
+            height: -webkit-fill-available;
         }
 
         *,
@@ -44,7 +45,8 @@
 
 
         body {
-            height: 100vh;
+            min-height: 100vh;
+            min-height: -webkit-fill-available;
             display: flex;
             flex-direction: column;
             justify-content: center;
